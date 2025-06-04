@@ -15,11 +15,11 @@ PRS-Net使用[Shapenetcore.v2](https://huggingface.co/datasets/ShapeNet/ShapeNet
 
 ## 依赖项
 本项目的依赖项主要有：
-- open3d
-- numpy
-- torch
-- tqdm
-- plotly
+- open3d==0.15.1
+- numpy==1.24.4
+- torch==2.4.1+cu121
+- tqdm==4.67.1
+- plotly==5.24.1
 
 ## 训练
 1. 下载数据集并放在preprocess/shapenet目录下。
